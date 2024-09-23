@@ -82,9 +82,6 @@
     isNormalUser = true;
     description = "Matt";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    #  thunderbird
-    ];
   };
 
   # Install firefox.
@@ -101,7 +98,6 @@
   environment.systemPackages = with pkgs; [
     git
     neovim
-  #  wget
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
