@@ -7,7 +7,6 @@
   home.packages = with pkgs; [
     # CLI tools
     fzf
-    gcc # Needed for treesitter
     tldr
     ripgrep # Required for nvim-telescope
 
@@ -18,6 +17,13 @@
     wezterm
     tmux
     tmux-sessionizer
+
+    # Dev env
+    # (neovim is already installed in configuration.nix)
+    gcc # Needed for treesitter
+    docker
+    kubernetes
+    aider-chat
   ];
 
   # TODO: add personal email address using env vars to avoid leaking.
