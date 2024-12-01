@@ -9,6 +9,10 @@
     gcc # Needed for treesitter
     tldr
     ripgrep
+    stow
+    wezterm
+    tmux
+    tmux-sessionizer
   ];
 
   # TODO: add personal email address using env vars to avoid leaking.
