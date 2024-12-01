@@ -27,6 +27,7 @@
   ];
 
   # TODO: add personal email address using env vars to avoid leaking.
+  # Workaround for now is export EMAIL=... before invoking Git (even indirectly via nvim).
   # programs.git = {
   #   enable = true;
   #   userName = "Matt Gallagher";
