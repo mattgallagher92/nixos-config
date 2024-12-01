@@ -5,11 +5,16 @@
   home.homeDirectory = "/home/matt";
 
   home.packages = with pkgs; [
+    # CLI tools
     fzf
     gcc # Needed for treesitter
     tldr
-    ripgrep
+    ripgrep # Required for nvim-telescope
+
+    # Config
     stow
+
+    # Terminal
     wezterm
     tmux
     tmux-sessionizer
