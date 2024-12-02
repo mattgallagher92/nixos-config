@@ -6,6 +6,7 @@
 
   home.packages = with pkgs; [
     # CLI tools
+    jq
     fzf
     tldr
     ripgrep # Required for nvim-telescope
