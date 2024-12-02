@@ -21,6 +21,9 @@
 
     # Dev env
     # (neovim is already installed in configuration.nix)
+    # For portability, project-specific pkgs (e.g. language SDKs) are made
+    # available in a repo's flake.nix. They can be made available using
+    # `nix develop`.
     gcc # Needed for treesitter
     docker
     kubernetes
