@@ -28,6 +28,10 @@
     docker
     kubernetes
     aider-chat
+
+    # Applications
+    # TODO: consider replacing with spotify-player or spotify-cli-linux
+    spotify
   ];
 
   # TODO: add personal email address using env vars to avoid leaking.
