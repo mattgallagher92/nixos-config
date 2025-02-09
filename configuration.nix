@@ -90,6 +90,8 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  programs.steam.enable = true;
+
   # Enable the Flakes feature and the accompanying nix command-line tool
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
