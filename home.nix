@@ -18,6 +18,7 @@
     wezterm
     tmux
     tmux-sessionizer
+    starship
 
     # Dev env
     # (neovim is already installed in configuration.nix)
