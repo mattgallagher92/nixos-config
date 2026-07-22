@@ -15,7 +15,7 @@
     stow
 
     # Terminal
-    wezterm
+    ghostty
     tmux
     tmux-sessionizer
     starship
